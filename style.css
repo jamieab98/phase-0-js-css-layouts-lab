@@ -1,0 +1,17 @@
+.cat-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    border: 1px solid black;
+}
+
+.cat-breed {
+    flex: 1 1 300px;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,001);
+    text-align: center;
+    transition-property: transform 0.3s;
+}
